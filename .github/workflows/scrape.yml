@@ -17,8 +17,8 @@ jobs:
     - name: Fetch latest data
       run: |-
         timestamp=$(date -u +"%Y%m%d%H%M%S")
-        curl "https://api.open-meteo.com/v1/forecast?latitude=51.33&longitude=0.26&current_weather=true" | jq >> data/weather_in_EpsomUK_${timestamp}.json
-        curl "https://api.open-meteo.com/v1/forecast?latitude=38.8997&longitude=22.4337&current_weather=true" | jq >> data/weather_in_LamiaGR_${timestamp}.json
+        curl "https://api.open-meteo.com/v1/forecast?latitude=51.33&longitude=0.26&current_weather=true" | jq >> weather_in_EpsomUK.json
+        curl "https://api.open-meteo.com/v1/forecast?latitude=38.8997&longitude=22.4337&current_weather=true" | jq >> weather_in_LamiaGR.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
