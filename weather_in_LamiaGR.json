@@ -1086,3 +1086,20 @@
     "time": "2023-09-27T23:15"
   }
 }
+{
+  "latitude": 38.875,
+  "longitude": 22.4375,
+  "generationtime_ms": 0.04398822784423828,
+  "utc_offset_seconds": 0,
+  "timezone": "GMT",
+  "timezone_abbreviation": "GMT",
+  "elevation": 88,
+  "current_weather": {
+    "temperature": 17.6,
+    "windspeed": 6.6,
+    "winddirection": 261,
+    "weathercode": 80,
+    "is_day": 0,
+    "time": "2023-09-28T01:15"
+  }
+}
