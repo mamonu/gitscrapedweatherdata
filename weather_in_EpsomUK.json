@@ -3177,3 +3177,20 @@
     "time": "2023-10-03T08:15"
   }
 }
+{
+  "latitude": 51.34,
+  "longitude": 0.25999975,
+  "generationtime_ms": 0.05888938903808594,
+  "utc_offset_seconds": 0,
+  "timezone": "GMT",
+  "timezone_abbreviation": "GMT",
+  "elevation": 201,
+  "current_weather": {
+    "temperature": 12.8,
+    "windspeed": 19.8,
+    "winddirection": 282,
+    "weathercode": 2,
+    "is_day": 1,
+    "time": "2023-10-03T09:15"
+  }
+}
