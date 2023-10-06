@@ -4589,3 +4589,29 @@
     "weathercode": 0
   }
 }
+{
+  "latitude": 38.875,
+  "longitude": 22.4375,
+  "generationtime_ms": 0.06508827209472656,
+  "utc_offset_seconds": 0,
+  "timezone": "GMT",
+  "timezone_abbreviation": "GMT",
+  "elevation": 88,
+  "current_weather_units": {
+    "time": "iso8601",
+    "temperature": "°C",
+    "windspeed": "km/h",
+    "winddirection": "°",
+    "is_day": "",
+    "weathercode": "wmo code"
+  },
+  "current_weather_interval_seconds": 900,
+  "current_weather": {
+    "time": "2023-10-06T04:15",
+    "temperature": 14.1,
+    "windspeed": 3.8,
+    "winddirection": 287,
+    "is_day": 0,
+    "weathercode": 0
+  }
+}
