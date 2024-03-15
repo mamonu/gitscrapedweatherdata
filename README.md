@@ -8,7 +8,7 @@ got some data.
 had the following .github/workflows/scrape.yml
 
 
-
+```
 
 name: Scrape latest data
 
@@ -38,3 +38,6 @@ jobs:
         git add -A
         git commit -m "Latest data: ${timestamp}" || exit 0
         git push
+
+
+```
